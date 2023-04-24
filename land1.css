@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.con-fluid {
+    width: 100%;
+    height: auto;
+}
+
+.con {
+    width: 1024px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.back {
+    background-image: url("images/Rectangle\ 256.png");
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 254, 254);
+}
+
+.t-left img {
+    width: 50px;
+    height: 50px;
+    padding-left: 20px;
+}
+
+.t-left {
+    display: flex;
+    width: 50%;
+}
+
+.t-left p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: #0e9220;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.t-right {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 50%;
+}
+
+.t-right a {
+    text-decoration: none;
+    color: green;
+    text-align: center;
+    font-weight: bold;
+    padding-right: 30px;
+
+}
+
+i {
+    padding: right 4px;
+}
+
+nav {
+    display: flex;
+}
+
+.hero-1 {
+    display: flex;
+    width: 100%;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+}
+
+.hero {
+    width: 100%;
+    color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+}
+
+#logo {
+    width: 55px;
+    height: 55px;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.head {
+    margin-bottom: 1rem;
+    padding: 20px 0px 0 30px;
+    justify-content: center;
+}
+
+#h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+#h2 {
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+.head1 {
+    align-self: center;
+    padding: 0.8rem 20px 0.8rem 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    font-size: 14px;
+}
+
+.head2 {
+    align-self: center;
+    padding-bottom: 2rem;
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.button {
+    align-self: center;
+    padding-bottom: 2rem;
+}
+
+.btn {
+    padding: 12px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    color: rgb(39, 165, 39);
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 10px solid black;
+
+}
+
+.card {
+
+    margin-left: 2rem 2rem;
+    padding: 10px;
+}
+
+.key {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 34px;
+    font-weight: bold;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.card h4 {
+    margin: 15px 0 15px 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    color: rgb(1, 61, 1);
+}
+
+.card p {
+    color: rgb(23, 112, 23);
+    padding-bottom: 30px;
+}
+
+.card img {
+    border-radius: 2px solid black;
+    width: 300px;
+    height: 250px;
+}
+
+.h3 {
+    margin: 5rem 0;
+    text-align: center;
+    color: #0e9220;
+    font-size: 20px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    gap: 2rem;
+    padding: 5rem 0;
+}
+
+.button-1 {
+    position: relative;
+    left: 650px;
+}
+
+.btn-2 {
+    margin: 0 625px;
+    padding-bottom: 50px;
+}
+
+.btn-1 {
+    width: 90px;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    color: rgb(39, 165, 39);
+}
+
+.text {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+    padding: 15px 0 15px 0;
+}
+.carding {
+    display: flex;
+
+}
+
+.title {
+    border: 1px solid rgb(15, 168, 61);
+    border-radius: 20px;
+    display: flex;
+    padding: 2rem;
+    margin: 1rem;
+}
+
+.text1 {
+    padding-left: 10px;
+    ;
+}
+
+.text1 h3 {
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: green;
+}
+
+.text1 p {
+    color: green;
+}
+
+.bg-green {
+    background-color: #0e7a1d;
+}
+
+#foot {
+    padding: 30px;
+}
+.call{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+}
+.end{
+    display: flex;
+    justify-content: space-between;
+
+}
+.email{
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 30px;
+    color: rgba(0, 0, 0, 0.7);
+}
